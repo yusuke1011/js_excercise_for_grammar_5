@@ -48,8 +48,8 @@ const factorialChallenge = function(num) {
 };
 
 // ここにconsole.logを使って「4」「5」を引数に渡したときの結果値を出力する
-console.log('【チャレンジ問題】4を入力したら24が返るべき: ', factorial(4) );
-console.log('【チャレンジ問題】5を入力したら120が返るべき: ', factorial(5) );
+console.log('【チャレンジ問題】4を入力したら24が返るべき: ', factorialChallenge(4) );
+console.log('【チャレンジ問題】5を入力したら120が返るべき: ', factorialChallenge(5) );
 
 
 // 課題3: 引数に渡した、全ての小文字の文字列の先頭1文字を大文字に変換した文字列を返す「convertFirstCharacterToUpperCase関数」を作る
