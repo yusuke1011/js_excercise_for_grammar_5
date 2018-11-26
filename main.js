@@ -6,14 +6,8 @@
 
 // ここにisOddNumber関数を作る
 function isOddNumber(num){
-   if(num % 2 == 0){
-       return false;
-   }
-   else{
-       return true;
-   }
+   return num % 2 === 1;
 }
-
 // ここにconsole.logを使って「9」「14」を引数に渡したときの結果値を出力する
 console.log("９を入力したらtrueが返るべき：",isOddNumber(9));
 console.log("14を入力したらfalseが返るべき：",isOddNumber(14));
@@ -51,7 +45,7 @@ console.log("5を入力したら120が返るべき：",factorial(5));
 //   - 「先頭1文字を大文字にするやり方」の参考記事: https://qiita.com/ichironagata/items/091f8cd629b82b0dcbf8
 
 // ここにconvertFirstCharacterToUpperCase関数を作る
-const covertFirstCharacterToUpperCase = (text)=>{
+const covertFirstCharacterToUpperCase = (text) => {
     const convertText = text.charAt(0).toUpperCase() + text.slice(1);
     return convertText;
 }
